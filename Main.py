@@ -83,8 +83,7 @@ print(f"\n\nLoaded proxy successfully...")
 
 with open('config.json', 'r') as f:
     config = json.load(f)
-token = config.get("token")
-
+token = input("token") 
 
 
 
